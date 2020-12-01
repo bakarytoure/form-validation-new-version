@@ -82,11 +82,11 @@ export const AddressDetailsForm = ({ formData, setFormData, nextStep }) => {
                     fullWidth
                   />
                 </Grid>
-                <Grid item xs={3} sm={3}>
+                <Grid item xs={4} sm={5}>
                   <Field
                     name="zip"
                     label="ZIP *"
-                    margin="normal"
+                    
                     variant="outlined"
                     id="outlined-weight-helper-text"
                     as={TextField}
@@ -95,7 +95,7 @@ export const AddressDetailsForm = ({ formData, setFormData, nextStep }) => {
                     fullWidth
                   />
                 </Grid>
-                <Grid item xs={9} sm={9}>
+                <Grid item xs={8} sm={7}>
                   <Field
                     name="city"
                     label="City *"
