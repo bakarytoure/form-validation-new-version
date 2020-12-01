@@ -16,7 +16,7 @@ const validationSchema = yup.object({
     .required("Password is Required")
     .matches(
       passwordRegex,
-      "Invalid password(eg. 8 character, min. one number and one special character)"
+      "Invalid password(eg. 8 characters, min.one upper case,one lower case, one number and one special character)"
     ),
   email: yup
     .string()
