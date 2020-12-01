@@ -1,6 +1,6 @@
 # React Multi Step Form
 
-> Form with multiple steps and confirmation. Formik 2 + Material UI
+> Form with multiple steps. Formik 2 + Material UI
 
 ## Quick Start
 
